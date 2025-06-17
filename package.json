@@ -202,6 +202,14 @@
           "description": "Name of the 'Return to Previous Size' menu item in Window → Move & Resize",
           "default": "Return to Previous Size",
           "required": false
+        },
+        {
+          "name": "alsoRaycastRestore",
+          "type": "checkbox",
+          "label": "Also run Raycast Restore",
+          "description": "Run Raycast’s Window-Management Restore after the macOS action.",
+          "default": false,
+          "required": false
         }
       ]
     },
