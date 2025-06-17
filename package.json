@@ -452,6 +452,6 @@
     }
   },
   "categories": ["System"],
-  "repository": "https://github.com/yazanzaid00/sequoia-window-tiling",
+  "repository": "https://github.com/yazanzaid00/sequoia-tiling",
   "keywords": ["window management", "tiling", "sequoia", "macOS 15"]
 }
