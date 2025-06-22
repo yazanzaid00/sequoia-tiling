@@ -2,8 +2,7 @@ import { getPreferenceValues, showToast, Toast } from "@raycast/api";
 import { runAppleScript, showFailureToast } from "@raycast/utils";
 import { SubMenuType } from "./constants";
 
-const DEFAULT_ERROR =
-  "Could not perform the window-tiling action. Check that Raycast has Accessibility permission.";
+const DEFAULT_ERROR = "Could not perform the window-tiling action. Check that Raycast has Accessibility permission.";
 
 export async function invokeMenu(menuItemName: string, sub?: SubMenuType) {
   const p = getPreferenceValues();
