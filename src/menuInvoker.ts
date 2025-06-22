@@ -28,7 +28,7 @@ export async function invokeMenu(menuItemName: string, sub?: SubMenuType) {
   const script = `
     tell application "System Events"
       try
-        click menu item "${menuItemName}" of menu 1 ${
+        click (first menu item whose name is "${menuItemName}" and enabled is true) of menu 1 ${
           subMenu ? `of menu item "${subMenu}" of menu 1 ` : ""
         }of menu bar item "${windowMenu}" of menu bar 1 of (first application process whose frontmost is true)
       end try
