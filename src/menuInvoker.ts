@@ -3,7 +3,7 @@ import { runAppleScript, showFailureToast } from "@raycast/utils";
 import { SubMenuType } from "./constants";
 
 const DEFAULT_ERROR =
-  "Could not perform the window-tiling action. Check that macOS Sequoia ‘Enable Window Tiling’ is on and Raycast has Accessibility permission.";
+  "Could not perform the window-tiling action. Check that Raycast has Accessibility permission.";
 
 export async function invokeMenu(menuItemName: string, sub?: SubMenuType) {
   const p = getPreferenceValues();
