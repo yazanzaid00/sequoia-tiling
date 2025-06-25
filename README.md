@@ -8,12 +8,12 @@ Map macOS 15+ Sequoia tiling commands to Raycast with intuitive keyboard shortcu
 * Extra shortcuts for all Sequoia tiling actions—ideal for keyboards without an Fn key
 * Custom menu labels per command
 
-![Demo](metadata/demo.gif)
-![Demo](metadata/demo2.gif)
+![Demo](media/demo.gif)
+![Demo](media/demo2.gif)
 
 ## Screenshots
 
-![Static Demo](metadata/screenshots/demo.png)
+![Static Demo](metadata/demo.png)
 
 ## Requirements
 
